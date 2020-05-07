@@ -1,0 +1,17 @@
+#buttonhead {
+  background-image: url("img/button.png");
+}
+
+#button {
+
+  text-align: center;
+}
+
+header {
+  background-image: url("img/BGheader.png");
+}
+
+#fade {
+  width: 100%;
+  height: 15px;
+}
