@@ -11,61 +11,82 @@
 </head>
 
 <body>
-  <header class="container-fluid"id="head">
+  <header class="position-relative min-vh-100" id="head">
     <!--background:bheader + fade img-->
 
-
     <!-- nav bootstrap 4élement avec menu hamburger nav centrer + un hover-->
-    <ul class="nav justify-content-center">
-      <li class="nav-item">
-        <a class="nav-link active" href="#">ADVENTURE</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">CREW</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">GALLERY</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">CONTACT</a>
-      </li>
-    </ul>
+    <nav id="navbar" class="navbar navbar-expand-lg  d-flex lg-justify-content-center navbar-dark   ">
+      <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link" href="#">ADVENTURE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CREW</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">GALLERY</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CONTACT</a>
+          </li>
+      </div>
+    </nav>
 
     <!-- div avec un h1 et h2 (ecrit si bonne police sinon image) + bouton; centrer-->
-    <div id="graffbutton" class="container justify-content-center">
-      <div class="container">
-        <img id="graff" src="img/grafiti.png" alt="graff">
+    <div id="graffbutton" class="container-fluid position-absolute ">
+      <div  class="container">
+        <img id="graff" class="img-fluid" class src="img/grafiti.png" alt="graff">
       </div>
-      <div id="button" class="container">
-      <a id="buttonhead"href="#">watch more</a>
+      <div id="button" class="container align-middle">
+        <a class="text-decoration-none" id="buttonhead" href="#">WATCH MORE</a>
       </div>
     </div>
-    <img id="fade" src="img/fade.png" alt="fade">
+
   </header>
   <!--div avec 2 div l'une a coté de l'autre;centrer, la 1ere avec img, la 2nd avec h1,h2,p;texte aligner a gauche (bgaboutimg)  -->
+  <div id="about" class="container-fluid row col-lg-12">
+
+
+      <div class="container-fluid col-lg-6  ">
+        <img class="img-fluid p-5 m-5" src="img/img6.png" alt="img">
+      </div>
+
+      <div id="abouttxt" class=" container-fluid col-lg-6">
+        <h2>ABOUT</h2>
+        <h1>LOREM IPSUM</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+      </div>
+    </div>
+
+
+
+  <!--div avec 1div avec h1;centrer,p et 1 div 4img avec hover ;centrer (bgarticle) -->
   <div class="container-fluid">
-
     <div class="container">
-      <img src="img/img6.png" alt="img">
+      <h1>LOREM IPSUM</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+    </div>
+    <div id="rowimg" class="row justify-content-center ">
+      <img src="img/img1.png" alt="img">
+      <img src="img/img2.png" alt="img">
+      <img src="img/img3.png" alt="img">
+      <img src="img/img4.png" alt="img">
     </div>
 
-    <div class="container">
-      <h1></h1>
-      <h2></h2>
-      <p></p>
-    </div>
 
   </div>
 
-
-  <!--div avec 1div avec h1;centrer,p et 1 nav avec 4img;centrer (bgarticle) -->
-
   <footer>
-
-
     <!--div avec h1 + bouton ;centrer (bgfooter) -->
-
-
+    <div class="container-fluid justify-content-center">
+      <h1 id="joincrew">JOIN OUR CREW</h1>
+      <div id="button" class="container  ">
+        <a class="align-middle text-decoration-none" id="buttonfoot" href="#">JOIN NOW</a>
+      </div>
   </footer>
 
 
