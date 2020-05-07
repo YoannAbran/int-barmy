@@ -1,10 +1,13 @@
-#buttonhead {
+/*#buttonhead {
+
   background-image: url("img/button.png");
-}
+}*/
 
 #button {
-
   text-align: center;
+  background-image: url("img/button.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 header {
