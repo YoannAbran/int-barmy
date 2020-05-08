@@ -22,13 +22,11 @@ body {
 }
 
 #head {
-  background-image: url("img/BGheader.png"), url("img/fade.png");
-  background-repeat: no-repeat, no-repeat;
+  background-image: url("img/BGheader.png");
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center, bottom;
-  height: 100%, 100%;
-  margin-bottom: 0%;
-  padding-bottom: 0%;
+  background-position: center;
+  height: 100vh;
 }
 
 #fade {
@@ -43,6 +41,17 @@ body {
 #about {
   background-image: url("img/BGabout.png");
   background-repeat: no-repeat;
+}
+#articlenope{
+  background-image: url("img/bgarticle.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:75vh;
+}
+footer{
+  background-image: url("img/BGfoot.png");
+  height:100vh;
 }
 
 #joincrew {
