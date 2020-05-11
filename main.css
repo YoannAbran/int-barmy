@@ -4,11 +4,27 @@
 }
 
 body {
-  font-family: VitruvianMan,sans-serif;
+  font-family: VitruvianMan, sans-serif;
   background-color: black;
 }
-.h1, h1{
+
+.h1, h1 {
   font-size: 5rem;
+}
+
+#head {
+  background-image: url("img/BGheader.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#fade{
+  background-image: url("img/fade.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
 }
 
 #navbar {
@@ -30,31 +46,18 @@ body {
   height: 2.5em;
 }
 
-#head {
-  background-image: url("img/BGheader.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-}
-
-#fade {
-  height: 30%;
-  width: 100%;
-}
-
 #graff {
   background-image: url("img/grafiti.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  height:50vh;
+  height: 50vh;
 }
 
 #about {
   background-image: url("img/BGabout.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: auto;
 }
 
 #articlenope {
@@ -62,22 +65,18 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 75vh;
 }
 
 @media (min-width:1590px) {
   #rowimg {
     position: absolute;
     z-index: 1;
-    bottom: -20%;
+    bottom: -15%;
   }
 
   #artrowimg {
     position: relative;
   }
-}
-#rowimg img:hover{
-  border: 5px solid #F33A12;
 }
 
 @media (max-width:1590px) {
@@ -86,24 +85,28 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    ;
   }
+}
+
+#rowimg img:hover {
+  border: 5px solid #F33A12;
 }
 
 footer {
   background-image: url("img/BGfoot.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 75vh;
 }
 
 #buttonfoot {
   color: #F33A12;
   top: 15rem;
 }
-#joincrewdiv h1{
+
+#joincrewdiv h1 {
   color: #F33A12
 }
+
 #buttonhead {
   color: black;
 }
