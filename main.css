@@ -50,9 +50,10 @@ body {
   background-size: cover;
   height: 75vh;
 
+
 }
 
-@media (min-width:992px) {
+@media (min-width:1590px) {
   #rowimg {
     position: absolute;
     z-index: 1;
@@ -62,7 +63,7 @@ body {
     position: relative;
   }
 }
-@media (max-width:992px){
+@media (max-width:1590px){
   #rowimg{
     background-image: url("img/BGheader.png");
     background-repeat: no-repeat;
@@ -71,9 +72,7 @@ body {
   }
 }
 
-#rowimg{
-  justify-content: center;
-}
+
 
 
 footer {
@@ -95,9 +94,4 @@ footer {
 
 #buttonhead {
   color: black;
-}
-
-#abouttxt {
-  margin-top: auto;
-  margin-bottom: auto;
 }
