@@ -42,24 +42,55 @@ body {
   background-image: url("img/BGabout.png");
   background-repeat: no-repeat;
 }
-#articlenope{
+
+#articlenope {
   background-image: url("img/bgarticle.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height:75vh;
-}
-footer{
-  background-image: url("img/BGfoot.png");
-  height:100vh;
+  height: 75vh;
+
 }
 
-#joincrew {
+@media (min-width:992px) {
+  #rowimg {
+    position: absolute;
+    z-index: 1;
+    bottom: -20%;
+  }
+  #artrowimg{
+    position: relative;
+  }
+}
+@media (max-width:992px){
+  #rowimg{
+    background-image: url("img/BGheader.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;;
+  }
+}
+
+#rowimg{
+  justify-content: center;
+}
+
+
+footer {
+  background-image: url("img/BGfoot.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 75vh;
+}
+
+#joincrewdiv {
   text-align: center;
+  top: 10rem;
 }
 
 #buttonfoot {
   color: orange;
+  top: 15rem;
 }
 
 #buttonhead {
