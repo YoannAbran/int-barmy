@@ -29,7 +29,6 @@ body {
 
 #navbar {
   height: 15rem;
-
 }
 
 #navbar a:hover {
@@ -72,6 +71,7 @@ body {
   #artrowimg {
     position: relative;
   }
+
   #rowimg {
     position: absolute;
     z-index: 1;
@@ -92,7 +92,7 @@ body {
   border: 5px solid #F33A12;
 }
 
-.divimg{
+.divimg {
   max-width: 393px;
 }
 
@@ -110,6 +110,7 @@ footer {
 #joincrewdiv h1 {
   color: #F33A12
 }
-p{
+
+p {
   font-size: 1.2rem;
 }
