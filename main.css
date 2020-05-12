@@ -29,6 +29,7 @@ body {
 
 #navbar {
   height: 15rem;
+
 }
 
 #navbar a:hover {
@@ -57,7 +58,7 @@ body {
 #about {
   background-image: url("img/BGabout.png");
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
 }
 
 #articlenope {
@@ -67,14 +68,18 @@ body {
   background-size: cover;
 }
 
-@media (min-width:992px) {
+@media (min-width:1200px) {
+  #artrowimg {
+    position: relative;
+  }
   #rowimg {
+    position: absolute;
     z-index: 1;
-    bottom: -15%;
+    top: 85%;
   }
 }
 
-@media (max-width:992px) {
+@media (max-width:1200px) {
   #rowimg {
     background-image: url("img/BGheader.png");
     background-repeat: no-repeat;
@@ -85,6 +90,10 @@ body {
 
 #rowimg img:hover {
   border: 5px solid #F33A12;
+}
+
+.divimg{
+  max-width: 393px;
 }
 
 footer {
@@ -100,4 +109,7 @@ footer {
 
 #joincrewdiv h1 {
   color: #F33A12
+}
+p{
+  font-size: 1.2rem;
 }

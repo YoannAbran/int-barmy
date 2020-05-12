@@ -20,18 +20,18 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div id="navbarNav" class="collapse navbar-collapse justify-content-center">
-        <ul class=" navbar-nav justify-content-center text-light">
+        <ul class=" navbar-nav justify-content-center ">
           <li class="nav-item">
-            <a class="nav-link h2 px-4 " href="#">ADVENTURE</a>
+            <a class="nav-link h2 px-4 text-white" href="#">ADVENTURE</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link h2 px-4  " href="#">CREW</a>
+            <a class="nav-link h2 px-4 text-white" href="#">CREW</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link h2 px-4 " href="#">GALLERY</a>
+            <a class="nav-link h2 px-4 text-white" href="#">GALLERY</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link h2 px-4 " href="#">CONTACT</a>
+            <a class="nav-link h2 px-4 text-white" href="#">CONTACT</a>
           </li>
       </div>
     </nav>
@@ -48,17 +48,17 @@
 
   </header>
   <!--div avec 2 div l'une a coté de l'autre;centrer, la 1ere avec img, la 2nd avec h1,h2,p;texte aligner a gauche (bgaboutimg)  -->
-  <div id="about" class="container-fluid row col-lg-12 vh-100 p-0 ">
+  <div id="about" class="container-fluid row col-xl-12 min-vh-100  p-auto ">
 
 
-    <div id="dbleimg" class="d-flex container-fluid col-lg-6  ">
+    <div id="dbleimg" class="d-flex container-fluid col-xl  ">
       <img class="img-fluid p-auto m-auto" src="img/img6.png" alt="img">
     </div>
 
-    <div id="abouttxt" class="container-fluid col-lg-6 m-auto p-auto text-light ">
+    <div id="abouttxt" class="container-fluid col-xl m-auto p-auto text-light ">
       <h2 class="col py-1 text-info">ABOUT</h2>
       <h1 class="col py-2">LOREM IPSUM</h1>
-      <p class="col-lg-6 pt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris, </p>
+      <p class="col-xl-6 pt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris, </p>
     </div>
 
   </div>
@@ -66,20 +66,29 @@
 
 
   <!--div avec 1div avec h1;centrer,p et 1 div 4img avec hover ;centrer (bgarticle) -->
-  <div id="artrowimg"class="position-relative">
+  <div id="artrowimg" class=" ">
     <div id="articlenope" class="d-flex container-fluid  vh-100">
       <div class=" container text-center m-auto p-auto text-light ">
         <h1>LOREM IPSUM</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
       </div>
     </div>
-    <div id="rowimg" class=" position-absolute row container-fluid justify-content-center m-0 p-0 ">
-      <a class="col-xl-2 col-lg-6 col-md-12 p-0 m-0" href="#"><img class="img-fluid" src="img/img1.png" alt="img"></a>
-      <a class="col-xl-2 col-lg-6 col-md-12 p-0 m-0" href="#"><img class="img-fluid" src="img/img2.png" alt="img"></a>
-      <a class="col-xl-2 col-lg-6 col-md-12 p-0 m-0" href="#"><img class="img-fluid" src="img/img3.png" alt="img"></a>
-      <a class="col-xl-2 col-lg-6 col-md-12 p-0 m-0" href="#"><img class="img-fluid" src="img/img4.png" alt="img"></a>
+    <div id="rowimg" class="row container-fluid justify-content-center p-0 m-0">
+      <div class="divcolimg col-xl-4 row p-0 m-0 justify-content-xl-end justify-content-center">
+        <div class="divimg col-xl-6 p-0 m-0 ">
+          <a class=" p-0 m-0" href="#"><img class="img-fluid" src="img/img1.png" alt="img"></a></div>
+        <div class="divimg col-xl-6 p-0 m-0">
+          <a class=" p-0 m-0" href="#"><img class="img-fluid" src="img/img2.png" alt="img"></a>
+        </div>
+      </div>
+      <div class="divcolimg col-xl-4 row p-0 m-0 justify-content-xl-start justify-content-center">
+        <div class="divimg col-xl-6 p-0 m-0 ">
+          <a class="p-0 m-0" href="#"><img class="img-fluid" src="img/img3.png" alt="img"></a></div>
+        <div class="divimg col-xl-6 p-0 m-0 ">
+          <a class="p-0 m-0" href="#"><img class="img-fluid" src="img/img4.png" alt="img"></a>
+        </div>
+      </div>
     </div>
-
   </div>
 
 
