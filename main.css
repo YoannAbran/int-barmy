@@ -33,9 +33,8 @@ body {
 
 #navbar a:hover {
   background-image: url("img/hovermenu.png");
-  background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: left;
 }
 
 #button {
@@ -102,10 +101,6 @@ footer {
   background-size: cover;
 }
 
-#rightsres {
-  bottom: 5%;
-}
-
 #buttonfoot {
   color: #F33A12;
   top: 15rem;
@@ -117,4 +112,8 @@ footer {
 
 p {
   font-size: 1.2rem;
+}
+
+#rightsres {
+  bottom: 5%;
 }
