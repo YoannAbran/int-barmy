@@ -71,6 +71,14 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+#abouttxt{
+  padding-left: 5%;
+  padding-right: 20%;
+}
+
+#dbleimg{
+  padding-left: 10%;
+}
 
 #articlenope {
   background-image: url("img/bgarticle.png");
