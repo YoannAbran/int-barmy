@@ -3,6 +3,10 @@
   src: url("font/VitruvianMan-eW73.ttf") format("truetype");
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: VitruvianMan, sans-serif;
   background-color: black;
