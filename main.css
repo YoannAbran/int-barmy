@@ -34,8 +34,17 @@ body {
 #navbar a:hover {
   background-image: url("img/hovermenu.png");
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: center;
 }
+
+@media (max-width:992px) {
+  #navbar a:hover {
+    background-image: url("img/hovermenu.png");
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+}
+
 
 #button {
   text-align: center;
