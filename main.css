@@ -109,6 +109,9 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
 }
+#buttonhead{
+  color: black;
+}
 
 #buttonfoot {
   color: #F33A12;
@@ -125,4 +128,9 @@ p {
 
 #rightsres {
   bottom: 5%;
+}
+
+#button a:hover{
+  color: #00e6e6;
+  font-size: 210%;
 }
