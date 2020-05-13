@@ -73,11 +73,16 @@ body {
 }
 #abouttxt{
   padding-left: 5%;
-  padding-right: 20%;
 }
 
 #dbleimg{
   padding-left: 10%;
+}
+@media (max-width:1200px){
+  #abouttxt{
+    text-align: center;
+  }
+
 }
 
 #articlenope {
