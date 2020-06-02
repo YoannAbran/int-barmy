@@ -50,7 +50,14 @@ body {
 }
 
 
-#button {
+#button1 {
+  text-align: center;
+  background-image: url("img/button.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 2.5em;
+}
+#button2 {
   text-align: center;
   background-image: url("img/button.png");
   background-repeat: no-repeat;
