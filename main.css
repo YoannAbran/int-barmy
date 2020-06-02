@@ -17,14 +17,14 @@ body {
 }
 
 #head {
-  background-image: url("img/BGheader.png");
+  background-image: url("img/BGheader.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 #fade {
-  background-image: url("img/fade.png");
+  background-image: url("img/fade.webp");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -36,14 +36,14 @@ body {
 }
 
 #navbar a:hover {
-  background-image: url("img/hovermenu.png");
+  background-image: url("img/hovermenu.webp");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 @media (max-width:992px) {
   #navbar a:hover {
-    background-image: url("img/hovermenu.png");
+    background-image: url("img/hovermenu.webp");
     background-repeat: no-repeat;
     background-position: left;
   }
@@ -52,21 +52,21 @@ body {
 
 #button1 {
   text-align: center;
-  background-image: url("img/button.png");
+  background-image: url("img/button.webp");
   background-repeat: no-repeat;
   background-position: center;
   height: 2.5em;
 }
 #button2 {
   text-align: center;
-  background-image: url("img/button.png");
+  background-image: url("img/button.webp");
   background-repeat: no-repeat;
   background-position: center;
   height: 2.5em;
 }
 
 #graff {
-  background-image: url("img/grafiti.png");
+  background-image: url("img/grafiti.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -74,7 +74,7 @@ body {
 }
 
 #about {
-  background-image: url("img/BGabout.png");
+  background-image: url("img/BGabout.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -93,7 +93,7 @@ body {
 }
 
 #articlenope {
-  background-image: url("img/bgarticle.png");
+  background-image: url("img/bgarticle.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -113,7 +113,7 @@ body {
 
 @media (max-width:1200px) {
   #rowimg {
-    background-image: url("img/BGheader.png");
+    background-image: url("img/BGheader.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -129,7 +129,7 @@ body {
 }
 
 footer {
-  background-image: url("img/BGfoot.png");
+  background-image: url("img/BGfoot.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
