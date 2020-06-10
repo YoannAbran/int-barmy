@@ -39,6 +39,7 @@ body {
   background-image: url("img/hovermenu.webp");
   background-repeat: no-repeat;
   background-position: center;
+  transition: all 0.5s;
 }
 
 @media (max-width:992px) {
